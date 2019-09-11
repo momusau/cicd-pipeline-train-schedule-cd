@@ -38,8 +38,8 @@ pipeline {
                 }
             }
         }
-    }
-}
+    
+
 
 stage('DeployToProduction') {
             when {
@@ -73,3 +73,5 @@ stage('DeployToProduction') {
                 }
             }
         }
+    }
+}
